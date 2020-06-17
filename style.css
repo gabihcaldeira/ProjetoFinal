@@ -1,1 +1,130 @@
+body {background-color:white;}
+.head {
+	font-family: Verdana;
+  color:black;
+  text-align:center;
+  margin-bottom: 30px;
+  line-height: 0.3;
+}
+h1 {font-size: 60px}
+p {font-size: 25px}
+.tabela {
+  width: 992px;
+  height: 606px;
+  overflow: auto;
+  box-sizing: border-box;
+  margin: auto;
+  border: none;
+  background-color:white;
+}
+.btn {
+  width: 53px;
+  height: 65px;
+  border: none;
+  color: white;
+  text-align:center;
+  float:left;
+  font-size:20px;
+  margin: 1px;
+}
+.alcalinos {background-color: rgb(8, 145, 159)}
+.alcalinos:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(8, 145, 159);
+}
+.terrosos {background-color: rgb(164, 227, 231)}
+.terrosos:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(164, 227, 231);
+}
+.transicao {background-color: rgb(255, 145, 42)}
+.transicao:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(255, 145, 42);
+}
+.lanta {background-color: rgb(253, 172, 97);margin-top: 5px}
+.lanta:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(253, 172, 97);
+}
+.actin {background-color: rgb(255, 201, 151)}
+.actin:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(255, 201, 151);
+}
+.semicond {background-color: rgb(123, 47, 107)}
+.semicond:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(123, 47, 107);
+}
+.semimetais {background-color: rgb(202, 172, 196)}
+.semimetais:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(202, 172, 196);
+}
+.ametais {background-color: rgb(184, 61, 104)}
+.ametais:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(184, 61, 104);
+}
+.halogenios {background-color: rgb(211, 118, 150)}
+.halogenios:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(211, 118, 150);
+}
+.nobres {background-color: rgb(231, 176, 195)}
+.nobres:hover {
+	background-color:white;
+    color:silver;
+    border:2px solid rgb(231, 176, 150);
+}
+
+.coluna {
+  list-style: none;
+  width: 200px;
+  border: none;
+  font-size:15px;
+  color:black;
+  font-family:Arial;
+  float:left;
+}
+.row {width:500px;margin:auto}
+.row:after {
+  clear:both;
+  content: "";
+  display: table;
+}
+li.al::before{color: rgb(8, 145, 159);content: "∎"}
+li.ter::before{color: rgb(164, 227, 231);content: "∎"}
+li.tran::before{color: rgb(255, 145, 42);content: "∎"}
+li.lant::before{color: rgb(253, 172, 97);content: "∎"}
+li.act::before{color: rgb(255, 201, 151);content: "∎"}
+li.cond::before{color: rgb(123, 47, 107);content: "∎"}
+li.met::before{color: rgb(202, 172, 196);content: "∎"}
+li.amet::before{color: rgb(184, 61, 104);content: "∎"}
+li.hal::before{color: rgb(211, 118, 150);content: "∎"}
+li.gas::before{color: rgb(231, 176, 195);content: "∎"}
+.info {
+  color: rgb(102, 102, 102);
+  font-family: Arial;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 30px; 
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+#simbolo {font-size: 40px;font-weight:bold}
+#nome {font-size: 30px}
+#lat {font-size:22px; font-style:italic}
+#pg {margin-top:5px}
+#info {margin-top: 30px}
 
