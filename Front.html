@@ -1,1 +1,169 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="head"> <h1>Tabela Periódica</h1>
+      <p>Propriedades Químicas e Físicas</p>
+    </div>
+    <div class="tabela">
+      <button id="H" class="btn ametais" onclick="exibir(event)">1 <br> H</button>
+      <div class="btn" style="background-color:white;width:878px"></div>
+      <button id="He" class="btn nobres" onclick="exibir(event)">2 <br> He</button>
+      <button id="Li" class="btn alcalinos" onclick="exibir(event)">3 <br> Li</button>
+      <button id="Be" class="btn terrosos" onclick="exibir(event)">4 <br> Be</button>
+      <div class="btn" style="background-color:white;width:548px"></div>
+      <button id="B" class="btn semimetais" onclick="exibir(event)">5 <br> B</button>
+      <button id="C" class="btn ametais" onclick="exibir(event)">6 <br> C</button>
+      <button id="N" class="btn ametais" onclick="exibir(event)">7 <br> N</button>
+      <button id="O" class="btn ametais" onclick="exibir(event)">8 <br> O</button>
+      <button id="F" class="btn halogenios" onclick="exibir(event)">9 <br> F</button>
+      <button id="Ne" class="btn nobres" onclick="exibir(event)">10 <br> Ne</button>
+      <button id="Na" class="btn alcalinos" onclick="exibir(event)">11 <br> Na</button>
+      <button id="Mg" class="btn terrosos" onclick="exibir(event)">12 <br> Mg</button>
+      <div class="btn" style="background-color:white;width:548px"></div>
+      <button id="Al" class="btn semicond" onclick="exibir(event)">13 <br> Al</button>
+      <button id="Si" class="btn semimetais" onclick="exibir(event)">14 <br> Si</button>
+      <button id="P" class="btn ametais" onclick="exibir(event)">15 <br> P</button>
+      <button id="S" class="btn ametais" onclick="exibir(event)">16 <br> S</button>
+      <button id="Cl" class="btn halogenios" onclick="exibir(event)">17 <br> Cl</button>
+      <button id="Ar" class="btn nobres" onclick="exibir(event)">18 <br> Ar</button>
+      <button id="K" class="btn alcalinos" onclick="exibir(event)">19 <br> K</button>
+      <button id="Ca" class="btn terrosos" onclick="exibir(event)">20 <br> Ca</button>
+      <button id="Sc" class="btn transicao" onclick="exibir(event)">21 <br> Sc</button>
+      <button id="Ti" class="btn transicao" onclick="exibir(event)">22 <br> Ti</button>
+      <button id="V" class="btn transicao" onclick="exibir(event)">23 <br> V</button>
+      <button id="Cr" class="btn transicao" onclick="exibir(event)">24 <br> Cr</button>
+      <button id="Mn" class="btn transicao" onclick="exibir(event)">25 <br> Mn</button>
+      <button id="Fe" class="btn transicao" onclick="exibir(event)">26 <br> Fe</button>
+      <button id="Co" class="btn transicao" onclick="exibir(event)">27 <br> Co</button>
+      <button id="Ni" class="btn transicao" onclick="exibir(event)">28 <br> Ni</button>
+      <button id="Cu" class="btn transicao" onclick="exibir(event)">29 <br> Cu</button>
+      <button id="Zn" class="btn transicao" onclick="exibir(event)">30 <br> Zn</button>
+      <button id="Ga" class="btn semicond" onclick="exibir(event)">31 <br> Ga</button>
+      <button id="Ge" class="btn semimetais" onclick="exibir(event)">32 <br> Ge</button>
+      <button id="As" class="btn semimetais" onclick="exibir(event)">33 <br> As</button>
+      <button id="Se" class="btn ametais" onclick="exibir(event)">34 <br> Se</button>
+      <button id="Br" class="btn halogenios" onclick="exibir(event)">35 <br> Br</button>
+      <button id="Kr" class="btn nobres" onclick="exibir(event)">36 <br> Kr</button>
+      <button id="Rb" class="btn alcalinos" onclick="exibir(event)">37 <br> Rb</button>
+      <button id="Sr" class="btn terrosos" onclick="exibir(event)">38 <br> Sr</button>
+      <button id="Y" class="btn transicao" onclick="exibir(event)">39 <br> Y</button>
+      <button id="Zr" class="btn transicao" onclick="exibir(event)">40 <br> Zr</button>
+      <button id="Nb" class="btn transicao" onclick="exibir(event)">41 <br> Nb</button>
+      <button id="Mo" class="btn transicao" onclick="exibir(event)">42 <br> Mo</button>
+      <button id="Tc" class="btn transicao" onclick="exibir(event)">43 <br> Tc</button>
+      <button id="Ru" class="btn transicao" onclick="exibir(event)">44 <br> Ru</button>
+      <button id="Rh" class="btn transicao" onclick="exibir(event)">45 <br> Rh</button>
+      <button id="Pd" class="btn transicao" onclick="exibir(event)">46 <br> Pd</button>
+      <button id="Ag" class="btn transicao" onclick="exibir(event)">47 <br> Ag</button>
+      <button id="Cd" class="btn transicao" onclick="exibir(event)">48 <br> Cd</button>
+      <button id="In" class="btn semicond" onclick="exibir(event)">49 <br> In</button>
+      <button id="Sn" class="btn semicond" onclick="exibir(event)">50 <br> Sn</button>
+      <button id="Sb" class="btn semimetais" onclick="exibir(event)">51 <br> Sb</button>
+      <button id="Te" class="btn semimetais" onclick="exibir(event)">52 <br> Te</button>
+      <button id="I" class="btn halogenios" onclick="exibir(event)">53 <br> I</button>
+      <button id="Xe" class="btn nobres" onclick="exibir(event)">54 <br> Xe</button>
+      <button id="Cs" class="btn alcalinos" onclick="exibir(event)">55 <br> Cs</button>
+      <button id="Ba" class="btn terrosos" onclick="exibir(event)">56 <br> Ba</button>
+      <button class="btn" style="background-color:white;color:black"> * </button>
+      <button id="Hf" class="btn transicao" onclick="exibir(event)">72 <br> Hf</button>
+      <button id="Ta" class="btn transicao" onclick="exibir(event)">73 <br> Ta</button>
+      <button id="W" class="btn transicao" onclick="exibir(event)">74 <br> W</button>
+      <button id="Re" class="btn transicao" onclick="exibir(event)">75 <br>Re </button>
+      <button id="Os" class="btn transicao" onclick="exibir(event)">76 <br>Os </button>
+      <button id="Ir" class="btn transicao" onclick="exibir(event)">77 <br>Ir </button>
+      <button id="Pt" class="btn transicao" onclick="exibir(event)">78 <br> Pt</button>
+      <button id="Au" class="btn transicao" onclick="exibir(event)">79 <br> Au</button>
+      <button id="Hg" class="btn transicao" onclick="exibir(event)">80 <br> Hg</button>
+      <button id="Tl" class="btn semicond" onclick="exibir(event)">81 <br> Tl</button>
+      <button id="Pb" class="btn semicond" onclick="exibir(event)">82 <br> Pb</button>
+      <button id="Bi" class="btn semicond" onclick="exibir(event)">83 <br> Bi</button>
+      <button id="Po" class="btn semimetais" onclick="exibir(event)">84 <br> Po</button>
+      <button id="At" class="btn halogenios" onclick="exibir(event)">85 <br> At</button>
+      <button id="Rn" class="btn nobres" onclick="exibir(event)">86 <br> Rn</button>
+      <button id="Fr" class="btn alcalinos" onclick="exibir(event)">87 <br> Fr</button>
+      <button id="Ra" class="btn terrosos" onclick="exibir(event)">88 <br> Ra</button>
+      <button class="btn" style="background-color:white;color:black"> ** </button>
+      <button id="Rf" class="btn transicao" onclick="exibir(event)">104 <br> Rf</button>
+      <button id="Db" class="btn transicao" onclick="exibir(event)">105 <br> Db</button>
+      <button id="Sg" class="btn transicao" onclick="exibir(event)">106 <br> Sg</button>
+      <button id="Bh" class="btn transicao" onclick="exibir(event)">107 <br> Bh</button>
+      <button id="Hs" class="btn transicao" onclick="exibir(event)">108 <br> Hs</button>
+      <button id="Mt" class="btn transicao" onclick="exibir(event)">109 <br> Mt</button>
+      <button id="Ds" class="btn transicao" onclick="exibir(event)">110 <br> Ds</button>
+      <button id="Rg" class="btn transicao" onclick="exibir(event)">111 <br> Rg</button>
+      <button id="Cn" class="btn transicao" onclick="exibir(event)">112 <br> Cn</button>
+      <button id="Nh" class="btn semicond" onclick="exibir(event)">113 <br> Nh</button>
+      <button id="Fl" class="btn semicond" onclick="exibir(event)">114 <br> Fl</button>
+      <button id="Mc" class="btn semicond" onclick="exibir(event)">115 <br> Mc</button>
+      <button id="Lv" class="btn semicond" onclick="exibir(event)">116 <br> Lv</button>
+      <button id="Ts" class="btn halogenios" onclick="exibir(event)">117 <br> Ts</button>
+      <button id="Og" class="btn nobres" onclick="exibir(event)">118 <br> Og</button>
+      <div class="btn" style="background-color:white;width:108px"></div>
+      <button class="btn" style="background-color:white;color:black"> * </button>
+      <button id="La" class="btn lanta" onclick="exibir(event)">57 <br> La</button>
+      <button id="Ce" class="btn lanta" onclick="exibir(event)">58 <br> Ce</button>
+      <button id="Pr" class="btn lanta" onclick="exibir(event)">59 <br> Pr</button>
+      <button id="Nd" class="btn lanta" onclick="exibir(event)">60 <br> Nd</button>
+      <button id="Pm" class="btn lanta" onclick="exibir(event)">61 <br> Pm</button>
+      <button id="Sm" class="btn lanta" onclick="exibir(event)">62 <br> Sm </button>
+      <button id="Eu" class="btn lanta" onclick="exibir(event)">63 <br> Eu</button>
+      <button id="Gd" class="btn lanta" onclick="exibir(event)">64 <br> Gd</button>
+      <button id="Tb" class="btn lanta" onclick="exibir(event)">65 <br> Tb</button>
+      <button id="Dy" class="btn lanta" onclick="exibir(event)">66 <br> Dy</button>
+      <button id="Ho" class="btn lanta" onclick="exibir(event)">67 <br> Ho</button>
+      <button id="Er" class="btn lanta" onclick="exibir(event)">68 <br> Er</button>
+      <button id="Tm" class="btn lanta" onclick="exibir(event)">69 <br> Tm</button>
+      <button id="Yb" class="btn lanta" onclick="exibir(event)">70 <br> Yb</button>
+      <button id="Lu" class="btn lanta" onclick="exibir(event)"> 71<br> Lu</button>
+      <div class="btn" style="background-color:white;width:108px"></div>
+      <button class="btn" style="background-color:white;color:black"> ** </button>
+      <button id="Ac" class="btn actin" onclick="exibir(event)">89 <br> Ac</button>
+      <button id="Th" class="btn actin" onclick="exibir(event)">90 <br> Th</button>
+      <button id="Pa" class="btn actin" onclick="exibir(event)">91 <br> Pa</button>
+      <button id="U" class="btn actin" onclick="exibir(event)">92 <br> U</button>
+      <button id="Np" class="btn actin" onclick="exibir(event)">93 <br> Np</button>
+      <button id="Pu" class="btn actin" onclick="exibir(event)">94 <br> Pu</button>
+      <button id="Am" class="btn actin" onclick="exibir(event)">95 <br> Am</button>
+      <button id="Cm" class="btn actin" onclick="exibir(event)">96 <br> Cm</button>
+      <button id="Bk" class="btn actin" onclick="exibir(event)">97 <br> Bk</button>
+      <button id="Cf" class="btn actin" onclick="exibir(event)">98 <br> Cf</button>
+      <button id="Es" class="btn actin" onclick="exibir(event)">99 <br> Es</button>
+      <button id="Fm" class="btn actin" onclick="exibir(event)">100 <br> Fm</button>
+      <button id="Md" class="btn actin" onclick="exibir(event)">101 <br> Md</button>
+      <button id="No" class="btn actin" onclick="exibir(event)">102 <br> No</button>
+      <button id="Lr" class="btn actin" onclick="exibir(event)">103 <br> Lr</button>
+    </div>
+    <div class="row">
+      <ul class="coluna">
+        <li class="al"> Metais Alcalinos</li>
+        <li class="ter"> Metais Alcalinos-Terrosos</li>
+        <li class="tran"> Metais de Transição</li>
+        <li class="lant"> Lantanídeos</li>
+        <li class="act"> Actinídeos</li>
+      </ul>
+      <ul class="coluna">
+        <li class="cond"> Semicondutores</li>
+        <li class="met"> Semimetais</li>
+        <li class="amet"> Ametais</li>
+        <li class="hal"> Halogênios</li>
+        <li class="gas"> Gases Nobres</li>
+      </ul>
+    </div>
+    
+    <div class="info">
+      <div id="simbolo"> </div> 
+      <div id="nome"> </div>
+      <div id="lat"> </div>
+      <div id="pg"> </div>
+      <div id="categoria"> </div>
+      <div id="info"> </div>
+    </div>
+  </body>
+</html>
