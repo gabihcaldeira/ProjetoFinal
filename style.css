@@ -4,7 +4,6 @@ body {background-color:white;}
   color:black;
   text-align:center;
   margin-bottom: 30px;
-  line-height: 0.3;
 }
 h1 {font-size: 60px}
 p {font-size: 25px}
@@ -128,3 +127,66 @@ li.gas::before{color: rgb(231, 176, 195);content: "∎"}
 #pg {margin-top:5px}
 #info {margin-top: 30px}
 
+.spc {width:878px;height:65px;background-color:white;float:left;margin:1px}
+.spc1 {width:548px;height:65px;background-color:white;float:left;margin:1px}
+.spc2 {width:108px;height:65px;background-color:white;float:left;margin:1px}
+
+@media screen and (max-width: 400px) {
+  .head {
+	 font-family: Verdana;
+   color:black;
+   text-align:center;
+ }
+ h1 {font-size: 30px}
+ p {font-size: 20px}
+ .tabela {
+   width: 380px;
+   height: 245px;
+   overflow: auto;
+   box-sizing: border-box;
+   margin-left:6px;
+   border: none;
+   background-color:white;
+ }
+  .btn {
+    width: 21px;
+    height: 27px;
+    border: none;
+    color: white;
+    text-align:left;
+    float:left;
+    font-size:7px;
+    margin:0px;
+ }
+ .spc {width:336px;height:27px;background-color:white;float:left;margin:0px}
+ .spc1 {width:210px;height:27px;background-color:white;float:left;margin:0px}
+ .spc2 {width:42px;height:27px;background-color:white;float:left;margin:0px}
+ .info {
+   font-size: 17px;
+   text-align: left;
+   margin-left: 2px;
+  }
+  .coluna {
+   list-style: none;
+   width: 100%;
+   border: none;
+   font-size:15px;
+   color:black;
+   font-family:Arial;
+   float:none;
+   margin-left:1px;
+  }
+  ul {list-style-position: inside}
+ .row {width:100%;margin-left:1px}
+ 
+.alcalinos:hover {background-color:white;color:silver;border:1px solid rgb(8, 145, 159)}
+.terrosos:hover {background-color:white;color:silver;border:1px solid rgb(164, 227, 231)}
+.transicao:hover {background-color:white;color:silver;border:1px solid rgb(255, 145, 42)}
+.lanta:hover {background-color:white;color:silver;border:1px solid rgb(253, 172, 97)}
+.actin:hover {background-color:white;color:silver;border:1px solid rgb(255, 201, 151)}
+.semicond:hover {background-color:white;color:silver;border:1px solid rgb(123, 47, 107)}
+.semimetais:hover {background-color:white;color:silver;border:1px solid rgb(202, 172, 196)}
+.ametais:hover {background-color:white;color:silver;border:1px solid rgb(184, 61, 104)}
+.halogenios:hover {background-color:white;color:silver;border:1px solid rgb(211, 118, 150)}
+.nobres:hover {background-color:white;color:silver;border:1px solid rgb(231, 176, 150)}
+}
